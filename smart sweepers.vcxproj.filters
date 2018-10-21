@@ -13,9 +13,6 @@
       <UniqueIdentifier>{5c76888b-caa8-491b-aa3b-7febc1ac62e5}</UniqueIdentifier>
       <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
     </Filter>
-    <Filter Include="ini files">
-      <UniqueIdentifier>{ad9d14e6-e0d4-4406-8a18-ca348b4d6426}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Header Files\Math Helpers">
       <UniqueIdentifier>{83b3b090-596d-4eab-a352-5e77e2f0dd7a}</UniqueIdentifier>
     </Filter>
@@ -51,6 +48,9 @@
     </Filter>
     <Filter Include="Source Files\Prac Controllers">
       <UniqueIdentifier>{cf222856-259c-490e-af0f-617da3e2656d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ini files">
+      <UniqueIdentifier>{ad9d14e6-e0d4-4406-8a18-ca348b4d6426}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -157,7 +157,7 @@
       <Filter>Resource Files</Filter>
     </CustomBuild>
     <CustomBuild Include="params.ini">
-      <Filter>ini files</Filter>
+      <Filter>Header Files\ini files</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
